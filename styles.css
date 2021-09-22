@@ -4,10 +4,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: #ddeeff;
+  background-color: #ddeeff;
 }
 
-li, a, button {
+li, a, button, h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 16px;
@@ -23,19 +23,19 @@ header {
 
 }
 
-.nav__links {
+.nav_links {
   list-style: none;
 }
 
-.nav__links li {
+.nav_links li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-.nav__links li a {
-  transition: all 0.3s ease 0s;
+.nav_links li, footer, a {
+  transition: all 0.2s ease 0s;
 }
 
-.nav__links li a:hover {
+.nav_links li, footer, a:hover {
   color: #FFFFFF;
 }
