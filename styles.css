@@ -39,3 +39,20 @@ header {
 .nav_links li, footer, a:hover {
   color: #FFFFFF;
 }
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(255,221,238);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(238,255,221);
+}
+
+.container {
+  padding: 90px 90px 90px 90px;
+}
