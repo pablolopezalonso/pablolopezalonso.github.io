@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #ddeeff;
+  background-color: #ffffff;
 }
 
 li, a, button, h1, h2, p {
@@ -23,14 +23,27 @@ header {
 
 }
 
+.home_page {
+  display: block;
+   text-align: center;
+   margin-top: 100px;
+   margin-right: 0px;
+   margin-bottom: 25px;
+}
+
 .title{
+  font-size: 20px;
+  display: block;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .description {
   text-align: center;
-  display: flex;
-  justify-content: center;
+  display: block;  
+  font-size: 16px;
+  width: 25em;
+  color: gray;
 }
 
 .nav_links {
@@ -49,6 +62,24 @@ header {
 .nav_links li, footer, a:hover {
   color: #FFFFFF;
 }
+
+.homepage_links {
+  list-style: none;
+}
+
+.homepage_links li{
+    display: inline-block;
+    padding: 25px 20px;
+}
+
+.homepage_links li, footer, a {
+  transition: all 0.2s ease 0s;
+}
+
+.homepage_links li, footer, a:hover {
+  color: #FFFFFF;
+}
+
 
 button {
   padding: 9px 25px;
