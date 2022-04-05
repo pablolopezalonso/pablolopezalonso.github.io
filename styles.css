@@ -7,6 +7,48 @@
   background-color: #ffffff;
 }
 
+
+#navbar {
+	overflow: hidden;
+	background-color: #ffffff;
+	padding: 90px 10px;
+	transition: 0.4s;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index:99;
+}
+
+#navbar a{
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+#navbar #logo {
+	font-size: 35px;
+	font-weight: bold;
+	transition: 0.4s;
+}
+
+#navbar a:hover {
+	color: green;
+}
+
+#navbar a.active {
+	background-color: black;
+	color: white;
+}
+
+#navbar-right {
+	float:right;
+}
+
 li, a, button, h1, h2, p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -80,20 +122,3 @@ header {
   color: #FFFFFF;
 }
 
-
-button {
-  padding: 9px 25px;
-  background-color: rgba(255,221,238);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.2s ease 0s;
-}
-
-button:hover {
-  background-color: rgba(238,255,221);
-}
-
-.container {
-  padding: 90px 90px 90px 90px;
-}
