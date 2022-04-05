@@ -9,18 +9,16 @@
 
 
 #navbar {
-	overflow: hidden;
+	overflow: visible;
 	background-color: #ffffff;
 	padding: 90px 10px;
 	transition: 0.4s;
-	position: fixed;
 	width: 100%;
 	top: 0;
 	z-index:99;
 }
 
 #navbar a{
-	float: left;
 	color: black;
 	text-align: center;
 	padding: 12px;
@@ -45,9 +43,7 @@
 	color: white;
 }
 
-#navbar-right {
-	float:right;
-}
+
 
 li, a, button, h1, h2, p {
   font-family: "Montserrat", sans-serif;
@@ -73,7 +69,7 @@ header {
    margin-bottom: 25px;
 }
 
-.title{
+.id{
   font-size: 20px;
   display: block;
   text-align: center;
@@ -82,7 +78,7 @@ header {
 
 .description {
   text-align: center;
-  display: block;  
+  display: block;
   font-size: 16px;
   width: 25em;
   color: gray;
@@ -121,4 +117,3 @@ header {
 .homepage_links li, footer, a:hover {
   color: #FFFFFF;
 }
-
