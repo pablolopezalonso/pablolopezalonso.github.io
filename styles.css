@@ -28,11 +28,12 @@
 	border-radius: 4px;
 }
 
-#navbar #logo {
+#navbar {
 	font-size: 35px;
 	font-weight: bold;
 	transition: 0.4s;
 }
+
 
 #navbar a:hover {
 	color: green;
@@ -43,7 +44,36 @@
 	color: white;
 }
 
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 50%;
+  height:0;
+  transition: .5s ease;
+}
 
+.nav_bar:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+#pablo {
+  padding-top: 30px;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	transition: 0.4s;
+}
+
+.logo a:hover {
+  color: green;
+}
 
 li, a, button, h1, h2, p, form {
   font-family: "Montserrat", sans-serif;
@@ -69,54 +99,13 @@ header {
    margin-bottom: 25px;
 }
 
-.id{
-  font-size: 20px;
-  display: block;
-  text-align: center;
-  padding-bottom: 20px;
-}
 
-.description {
-  text-align: center;
-  display: block;
-  font-size: 16px;
-  width: 25em;
-  color: gray;
-}
 
-.nav_links {
-  list-style: none;
-}
 
-.nav_links li {
-  display: inline-block;
-  padding: 0px 20px;
-}
 
-.nav_links li, footer, a {
-  transition: all 0.2s ease 0s;
-}
 
-.nav_links li, footer, a:hover {
-  color: #45a049;
-}
 
-.homepage_links {
-  list-style: none;
-}
-
-.homepage_links li{
-    display: inline-block;
-    padding: 25px 20px;
-}
-
-.homepage_links li, footer, a {
-  transition: all 0.2s ease 0s;
-}
-
-.homepage_links li, footer, a:hover {
-  color: #FFFFFF;
-}
+/* For contact page */
 
 input[type=text], select, textarea {
   width: 100%; /* Full width */
